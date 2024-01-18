@@ -1,20 +1,20 @@
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif; /* Optional: Set a font-family */
+    font-family: 'Arial', sans-serif; 
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px; /* Adjusted margin for better spacing */
+    margin: 20px; 
 }
 
 .page-heading {
     text-align: center;
-    font-size: 1.75em; /* 75% larger than default font size */
+    font-size: 1.75em; 
     margin-top: 30px;
-    margin-bottom: 50px; /* Added margin for spacing */
+    margin-bottom: 50px;  */
 }
 
 .row {
@@ -29,17 +29,16 @@ body {
     padding: 20px;
     border: 1px solid black;
     position: relative;
-    background-color: #f0f0f0; /* Set your chosen background color */
+    background-color: #f0f0f0;
 }
 
 .title {
     position: absolute;
     top: 0;
     right: 0;
-    /*background-color: #ffcc00;  Set your unique color */
     padding: 5px;
     border: 1px solid black;
-    font-size: 125%; /* 25% larger than default font size */
+    font-size: 125%;
 }
 #title1{
     background-color: pink;
