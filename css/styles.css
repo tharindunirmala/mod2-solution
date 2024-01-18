@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Optional: Set a font-family */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; /* Adjusted margin for better spacing */
+}
+
+.page-heading {
+    text-align: center;
+    font-size: 1.75em; /* 75% larger than default font size */
+    margin-top: 30px;
+    margin-bottom: 50px; /* Added margin for spacing */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+    background-color: #f0f0f0; /* Set your chosen background color */
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*background-color: #ffcc00;  Set your unique color */
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 125%; /* 25% larger than default font size */
+}
+#title1{
+    background-color: pink;
+}
+#title2{
+    background-color: red;
+}
+#title3{
+    background-color: yellow;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Desktop View */
+@media (min-width: 992px) {
+    .section {
+        width: 31.33%;
+        margin-right: 2%;
+    }
+
+    .section:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section {
+        width: 48%;
+        margin-right: 2%;
+    }
+     
+    #section3 {
+        width: 100%;
+       
+    }
+}
